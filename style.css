@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+#imgActionFigure {
+  width: 100px;
+}
+.logoGeekWorld img {
+  margin-left: 15px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.buttons {
+  margin: 10px;
+  display: flex;
+  gap: 15px;
+}
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: #0a99fe10;
+  color: #0a99fe;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #0a99fe;
+  color: white;
+}
+.Paintings {
+  overflow-x: auto;
+}
+.Paintings h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #1b1b1b;
+}
+.actionFigures {
+  overflow-x: auto;
+}
+.actionFigures h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #1b1b1b;
+}
+.paintingsLista {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.actionFiguresList {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.li_paintings {
+  min-width: 207px;
+  height: 275px;
+  background-color: #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cardPaintings {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+}
+
+#imagePaintingList {
+  width: 100%;
+  height: 100%;
+}
+
+#titlePaintingList {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #1b1b1b;
+}
+
+#pricePaintingList {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #868383;
+}
+
+.li_action_figure {
+  min-width: 207px;
+  height: 275px;
+  background-color: #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cardActionFigure {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+}
+
+#imgActionFigure {
+  width: 100%;
+  height: 100%;
+}
+#titleActionFigure {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #1b1b1b;
+}
+
+#priceActionFigure {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #868383;
+}
