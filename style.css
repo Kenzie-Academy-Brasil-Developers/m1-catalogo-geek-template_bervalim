@@ -88,6 +88,7 @@ body {
 #imagePaintingList {
   width: 100%;
   height: 100%;
+  border-radius: 15px;
 }
 
 #titlePaintingList {
@@ -122,6 +123,7 @@ body {
 #imgActionFigure {
   width: 100%;
   height: 100%;
+  border-radius: 15px;
 }
 #titleActionFigure {
   font-size: 20px;
